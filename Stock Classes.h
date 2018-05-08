@@ -2,8 +2,8 @@ class Company
 {
 	private:
 	std::string name;
-	BST* buyList;
-	BST* sellList;
+	BST* buyList; // Max sorted heap
+	BST* sellList; // Min sorted heap
 	
 	public:
 	void findData (std::string a)
