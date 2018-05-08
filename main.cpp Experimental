@@ -1,0 +1,24 @@
+// Pseudo/Experimental Code for main
+
+int main()
+{
+	//Initialize Company Vector
+	Vector<Company> Test;
+	
+	// Create Company Objects and initialize values
+	Company Intel;
+	Intel.Create("INTC");
+	Company Microsoft;
+	Microsoft.Create("MSFT");
+	Company Sony;
+	Sony.Create("SONY");
+	
+	// Put Companies in vector
+	Test[0] = Intel;
+	Test[1] = Microsoft;
+	Test[2] = Sony;
+
+
+
+
+}

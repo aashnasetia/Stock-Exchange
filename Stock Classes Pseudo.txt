@@ -1,0 +1,16 @@
+Customer Tasks
+// GUI: create menu to create new customer and take order info
+// Create new customer and populate it with data
+// Get Data: name, buying/selling, price, quantity
+// Put customer object into respective company's buy/sell queue.
+
+
+Company Tasks
+// Find if company exists (for buy/sell order)
+// Reject order if it does not
+// Put order into respective list if company exists
+
+BST Tasks
+// Code Find
+// Code Insert
+// Code min/max sort
