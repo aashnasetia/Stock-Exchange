@@ -7,8 +7,6 @@ class Company
 	
 	public:
 	void findData (std::string a);
-	void minSort (BST* &a, Customer b);
-	void maxSort (BST* &a, Customer b);
 	void pullData (BST* &a, Customer &b);
 	void pushData (BST* &a, Customer b);
 	void Create(std::string n)
@@ -72,15 +70,15 @@ class Customer
 class BST*
 {
 	private:
-	Customer a;
+	Customer name;
 	BST* left;
 	BST* right;
 	
 	public:
-	void minSort (BST* &a, Customer b);
-	void maxSort (BST* &a, Customer b);
-	void Insert (BST* &a, Customer b);
-	bool Find (BST* a, Customer b);
+	void minSort (BST* &a); // Minimum heap sort
+	void maxSort (BST* &a); // Maximum heap sort
+	void Insert (BST* &a, Customer b); // Insert a customer into a heap
+	bool Find (BST* a, Customer b); // Check if customer is in a heap
 };
 
 // Input validation code, replace parameters with relevant values
