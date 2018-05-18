@@ -75,8 +75,8 @@ class BST*
 	BST* right;
 	
 	public:
-	void minSort (BST* &a); // Minimum heap sort
-	void maxSort (BST* &a); // Maximum heap sort
+	bool minSort (BST* &a); // Minimum heap sort
+	bool maxSort (BST* &a); // Maximum heap sort
 	void Insert (BST* &a, Customer b); // Insert a customer into a heap
 	bool Find (BST* a, Customer b); // Check if customer is in a heap
 };
